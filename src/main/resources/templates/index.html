@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Pinpoint</title>
+    <link th:href="@{/css/styles.css}" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div class="header-banner">
+    <h1>PDF Pinpoint</h1>
+</div>
+
+
+
+<div class="bottom-section">
+    <input type="text" id="ask-text" class="form-control" placeholder="Enter text to search">
+    <input type="file" id="pdf-file" class="custom-file-input" accept="application/pdf">
+    <button class="btn btn-upload" id="upload-btn">Upload</button>
+    <button class="btn btn-send" id="send-btn">Send</button>
+    <button class="btn btn-document-button" id="documents-btn">Documents</button>
+</div>
+
+<div class="sidebar" id="sidebar">
+    <button id="toggle-sidebar">&#9776;</button>
+    <h3>Documents 📄</h3>
+    <ul id="file-list"></ul>
+</div>
+
+
+<div id="upload-popup" class="popup-box">
+    <div class="upload-popup-header">
+        <span id="upload-popup-title">Upload Status</span>
+        <span id="upload-popup-close" style="cursor:pointer;">&times;</span>
+    </div>
+    <div id="upload-popup-body"></div>
+</div>
+
+
+<div class="chat-container" id="chat-container">
+</div>
+
+<script th:src="@{/js/script.js}"></script>
+</body>
+</html>
