@@ -28,6 +28,7 @@ public class ChatService  {
 
     public String chat(String question, List<Document> relatedDocs) {
         StringBuilder contextBuilder = new StringBuilder();
+        
 
         for (Document doc : relatedDocs) {
             contextBuilder.append(doc.getContent());
