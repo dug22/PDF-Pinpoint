@@ -36,32 +36,32 @@ h1 {
 
 .animation-container {
     display: inline-block;
-    width: 50px; /* Reduced from 80px */
-    height: 50px; /* Reduced from 80px */
+    width: 50px;
+    height: 50px;
     margin-left: 10px;
     vertical-align: middle;
 }
 
 .document {
-    width: 70%; /* Automatically scales within the container */
-    height: 70%; /* Automatically scales within the container */
+    width: 70%;
+    height: 70%;
     background-color: #fff;
-    border: 1px solid #424242; /* Reduced border thickness */
-    border-radius: 6px; /* Adjusted for smaller size */
+    border: 1px solid #424242;
+    border-radius: 6px;
     position: relative;
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    padding: 5px; /* Reduced padding */
-    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    padding: 5px;
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.1);
 }
 
 .document .line {
-    width: 90%; /* Proportional width */
-    height: 3px; /* Reduced line height */
+    width: 90%;
+    height: 3px;
     background-color: #ddd;
-    margin: 2px 0; /* Reduced spacing */
-    border-radius: 2px; /* Adjusted for smaller size */
+    margin: 2px 0;
+    border-radius: 2px;
 }
 
 .document .line.short {
@@ -69,31 +69,31 @@ h1 {
 }
 
 .magnifying-glass {
-    width: 20px; /* Reduced from 30px */
-    height: 20px; /* Reduced from 30px */
-    border: 2px solid #0288d1; /* Adjusted border thickness */
+    width: 20px;
+    height: 20px;
+    border: 2px solid #0288d1;
     border-radius: 50%;
     position: absolute;
     top: 5px;
     left: 5px;
     background-color: rgba(255, 255, 255, 0.8);
     animation: move-glass 4s infinite ease-in-out;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Softer shadow */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 .magnifying-glass .handle {
-    width: 4px; /* Adjusted width */
-    height: 10px; /* Adjusted height */
+    width: 4px;
+    height: 10px;
     background-color: #0288d1;
     position: absolute;
     bottom: -5px;
     left: 50%;
     transform: translateX(-50%);
-    border-radius: 3px; /* Adjusted radius */
+    border-radius: 3px;
 }
 
 .magnifying-glass .pinpoint {
-    width: 4px; /* Smaller pinpoint */
+    width: 4px;
     height: 4px;
     background-color: #ff5722;
     border-radius: 50%;
@@ -101,10 +101,9 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0 0 3px rgba(255, 87, 34, 0.7); /* Softer shadow */
+    box-shadow: 0 0 3px rgba(255, 87, 34, 0.7);
 }
 
-/* Animation */
 @keyframes move-glass {
     0%, 70% {
         top: 5px;
@@ -188,7 +187,6 @@ h1 {
     transform: translateX(5px);
 }
 
-
 .chat-container {
     display: flex;
     flex-direction: column;
@@ -247,12 +245,11 @@ h1 {
     z-index: 1001;
 }
 
-
 .bottom-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px; /* Adds spacing between elements */
+    gap: 10px;
 }
 
 .form-control {
