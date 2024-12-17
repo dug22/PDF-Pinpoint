@@ -34,7 +34,7 @@ PDF Pinpoint allows you to do the following:
 * Does not require an internet connection to run this application, which respects user privacy. 
 
 # Media 
-
+![Image](https://github.com/dug22/PDF-Pinpoint/blob/master/images/pdf%20pinpoint%20visual.png?raw=true)
 
 
 # URL Endpoints:
