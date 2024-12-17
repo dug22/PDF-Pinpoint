@@ -16,10 +16,11 @@ import java.util.Optional;
 public class ChatService  {
 
     private static final String PROMPT_TEXT = """
-               PDF Pinpoint is fully authorized to utilize the relevant PDF documents it holds in order to answer
-               any {question}, extracting context from {context} to provide the most accurate response for the user.
-               Type your output in plain text.
+               PDF Pinpoint is authorized to reference the PDF documents it manages to respond to
+               any {question}, using {context} to deliver the most precise and accurate information
+               for the user. Output your response in plain text.
             """;
+
 
 
     @Autowired
