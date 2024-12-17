@@ -32,11 +32,16 @@ PDF Pinpoint allows you to do the following:
 * Identify, compare, and analyze relationships between the documents to uncover possible patterns and connections.
 * Enhance productivity for academic, legal, or business purposes with PDF Pinpoint.
 * Does not require an internet connection to run this application, which respects user privacy. 
- 
+
+# Media 
+
+
+
 # URL Endpoints:
-1. **localhost:8080** accesses the main RAG chatbot application. 
-2. **localhost:8080/documents** accesses a list of documents loaded into the application.
-3. **localhost:8080/delete/file_name** deletes a file from the given repository.
+1. **localhost:8080** accesses the main RAG chatbot application.
+2. **localhost:8080/upload** endpoint to upload documents. 
+3. **localhost:8080/documents** accesses a list of documents loaded into the application.
+4. **localhost:8080/delete/file_name** deletes a file from the given repository.
 
 # Contributions
 If you'd like to contribute to this repository, feel free to open a pull request with your suggestions, bug fixes, or enhancements. Contributions are always welcome!
