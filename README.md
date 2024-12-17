@@ -1,6 +1,6 @@
 # About
 <p align="justify">
-PDF Pinpoint is a small-scale and simple local chatbot tool powered by RAG (Retrieval-Augmented Generation). It leverages Llama models and is built using Spring Boot/Spring AI to process and train on multiple PDF documents, enabling users to efficiently find answers across various PDF documents.</p>
+PDF Pinpoint is a small-scale and simple local chatbot tool powered by retrieval-augmented generation (RAG). It leverages large language models to process and train on multiple PDF documents, enabling users to efficiently find the answers they're looking for across various PDF documents. </p>
 
 # Getting Started
 
